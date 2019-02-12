@@ -1,10 +1,14 @@
 package principal;
 
+import boardgame.Position;
+
 public class Main {
 
 	public static void main(String[] args) {
 
-		System.out.print("Sistema de Xadrez");
+		Position pos = new Position(3,5);
+		
+		System.out.println(pos);
 		
 	}
 
